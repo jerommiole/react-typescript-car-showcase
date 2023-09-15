@@ -3,7 +3,7 @@
 import { useState, Fragment } from "react"
 import Image from 'next/image'
 import { Combobox, Transition } from '@headlessui/react'
-import { manufacturers } from "@/contants";
+import { manufacturers } from "@/constants";
 import { SearchManufacturerProps } from '@/types'
 
 const SearchManufacturer = ({manufacturer, setManufacturer}: SearchManufacturerProps ) => {
